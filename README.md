@@ -27,25 +27,45 @@ TEST CASES:
 There are 21 test cases in this project. Each of them controls necessary requirements. To talk about these:
 
 -GirisYapFacebook : Checks for Facebook login.
+
 -GirisYapTwitter : Checks for Twitter login.
+
 -GirisYapGoogle : Checks for Google login.
+
 -GirisYapNoInput : Checks whether the error message appears when the user does not enter input in the login page.
+
 -GirisYapYanlisSifre : Checks if the error message appears when the user tries to login with valid mail and invalid password.
+
 -GirisYapYanlisMail : Checks if the error message appears when the user tries to login with invalid mail.
+
 -GirisYapDusukKarakterliSifre : Checks if the error message appears when the user tries to login with a password with less than 6 characters.
+
 -GirisYapStandartGiris : When the user tries to login with valid e-mail and valid password, it checks whether the user has successfully logged in.
+
 -ProfilKaynakEkle : When the user adds a new news source, it checks whether it is included in the user's preferences.
+
 -ProfilKaynakCikar : When the user removes a existing news source, it checks whether it is discarded in the user's preferences.
+
 -ProfilGeceModu : When the user wants to run the application in night mode, it checks its feasibility.
+
 -FavoriHaberEkle : When the user likes a new on the home screen, it checks whether it has been added to the favorites section on the user's page.
+
 -FavoriHaberCikar : When the user unlikes a new that the user has liked before, it checks whether it has been removed from the the favorites section on the user's page.
+
 -YorumEkleSil : It checks whether the user can comment on an existing article, whether the user can delete a comment that he did before and whether the user can like an existing comment.
+
 -BaslıkBoyutuAyarla : Checks if the headline size can be changed.
+
 -FacebookSayfamiz : Checks whether the application's Facebook page can be visited.
+
 -TwitterSayfamiz : Checks whether the application's Twitter page can be visited.
+
 -InstagramSayfamiz : Checks whether the application's Instagram page can be visited.
+
 -AramaYapma : When the user performs a search in the search section, it checks whether the results are relevant to the search.
+
 -NabizDergileriKontrol : When the user selects a category from the magazines section, it checks whether the news sources they come across really belong to that category.
+
 -KaynakOnerme : Kullanıcının uygulama için yeni bir kaynak önerip öneremeyeceğini kontrol eder.
 
 
