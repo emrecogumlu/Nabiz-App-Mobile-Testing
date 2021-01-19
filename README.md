@@ -1,6 +1,6 @@
 # Nabiz-App-Mobile-Testing
 
-Hello guys! In this repository, I am sharing with you a project called "Nabiz Application Mobile Testing" which provides to run multiple test cases for an Native App called "Nabiz" by using Appium, TestNg, Maven etc.
+Hello guys! In this repository, I am sharing with you a project called "Nabiz Application Mobile Testing" which provides to run multiple test cases for an Native App called "Nabiz" by using JAVA programming language, Appium, TestNg, Maven etc.
 
 If we talk about our application that we tested before starting, this news application, named "Nabiz", is an application that basically aims to show users new news according to the category and news sources they choose.
 
