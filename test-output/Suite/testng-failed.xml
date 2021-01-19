@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="gecerli_sifre" value="Emre5490"/>
+  <parameter name="gecerli_mail" value="gcogumlu@gmail.com"/>
+  <listeners>
+    <listener class-name="Resources.Listeners"/>
+    <listener class-name="Resources.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="TestGiris(failed)">
+    <classes>
+      <class name="MainNabiz.NabizFramework.GirisYapFacebook">
+        <methods>
+          <include name="killAllNodes"/>
+          <include name="AfterMethod"/>
+          <include name="BeforeMethod"/>
+          <include name="facebookla_gir"/>
+        </methods>
+      </class> <!-- MainNabiz.NabizFramework.GirisYapFacebook -->
+      <class name="MainNabiz.NabizFramework.GirisYapGoogle">
+        <methods>
+          <include name="google_ile_Gir"/>
+          <include name="BeforeMethod"/>
+          <include name="AfterMethod"/>
+        </methods>
+      </class> <!-- MainNabiz.NabizFramework.GirisYapGoogle -->
+      <class name="MainNabiz.NabizFramework.GirisYapYanlisSifre">
+        <methods>
+          <include name="BeforeMethod"/>
+          <include name="AfterMethod"/>
+          <include name="yanlis_sifre"/>
+        </methods>
+      </class> <!-- MainNabiz.NabizFramework.GirisYapYanlisSifre -->
+      <class name="MainNabiz.NabizFramework.GirisYapStandartGiris">
+        <methods>
+          <include name="standart_giris"/>
+          <include name="BeforeMethod"/>
+          <include name="AfterMethod"/>
+        </methods>
+      </class> <!-- MainNabiz.NabizFramework.GirisYapStandartGiris -->
+      <class name="MainNabiz.NabizFramework.GirisYapTwitter">
+        <methods>
+          <include name="AfterMethod"/>
+          <include name="BeforeMethod"/>
+          <include name="twitterla_gir"/>
+        </methods>
+      </class> <!-- MainNabiz.NabizFramework.GirisYapTwitter -->
+      <class name="MainNabiz.NabizFramework.GirisYapDusukKarakterliSifre">
+        <methods>
+          <include name="dusuk_karakterli_sifre"/>
+          <include name="BeforeMethod"/>
+          <include name="AfterMethod"/>
+        </methods>
+      </class> <!-- MainNabiz.NabizFramework.GirisYapDusukKarakterliSifre -->
+      <class name="MainNabiz.NabizFramework.GirisYapYanlisMail">
+        <methods>
+          <include name="yanlis_mail"/>
+          <include name="BeforeMethod"/>
+          <include name="AfterMethod"/>
+        </methods>
+      </class> <!-- MainNabiz.NabizFramework.GirisYapYanlisMail -->
+      <class name="MainNabiz.NabizFramework.GirisYapNoInput">
+        <methods>
+          <include name="no_input_Giris"/>
+          <include name="AfterMethod"/>
+          <include name="BeforeMethod"/>
+        </methods>
+      </class> <!-- MainNabiz.NabizFramework.GirisYapNoInput -->
+    </classes>
+  </test> <!-- TestGiris(failed) -->
+  <test thread-count="5" name="TestProfil(failed)">
+    <classes>
+      <class name="MainNabiz.NabizFramework.AramaYapma">
+        <methods>
+          <include name="arama_yap"/>
+          <include name="BeforeMethod"/>
+          <include name="AfterMethod"/>
+        </methods>
+      </class> <!-- MainNabiz.NabizFramework.AramaYapma -->
+      <class name="MainNabiz.NabizFramework.NabizDergileriKontrol">
+        <methods>
+          <include name="AfterMethod"/>
+          <include name="BeforeMethod"/>
+          <include name="nabiz_dergileri_kontrol_et"/>
+        </methods>
+      </class> <!-- MainNabiz.NabizFramework.NabizDergileriKontrol -->
+      <class name="MainNabiz.NabizFramework.BaslıkBoyutuAyarla">
+        <methods>
+          <include name="BeforeMethod"/>
+          <include name="AfterMethod"/>
+          <include name="baslik_boyutu_ayarla"/>
+        </methods>
+      </class> <!-- MainNabiz.NabizFramework.BaslıkBoyutuAyarla -->
+      <class name="MainNabiz.NabizFramework.KaynakOnerme">
+        <methods>
+          <include name="AfterMethod"/>
+          <include name="BeforeMethod"/>
+          <include name="kaynak_oner"/>
+        </methods>
+      </class> <!-- MainNabiz.NabizFramework.KaynakOnerme -->
+      <class name="MainNabiz.NabizFramework.ProfilKaynakCikar">
+        <methods>
+          <include name="AfterMethod"/>
+          <include name="BeforeMethod"/>
+          <include name="kaynaklari_Duzenle"/>
+        </methods>
+      </class> <!-- MainNabiz.NabizFramework.ProfilKaynakCikar -->
+      <class name="MainNabiz.NabizFramework.YorumEkleSil">
+        <methods>
+          <include name="BeforeMethod"/>
+          <include name="yorum_ekle_sil"/>
+          <include name="AfterMethod"/>
+        </methods>
+      </class> <!-- MainNabiz.NabizFramework.YorumEkleSil -->
+      <class name="MainNabiz.NabizFramework.FavoriHaberCikar">
+        <methods>
+          <include name="BeforeMethod"/>
+          <include name="favorilerden_cikar"/>
+          <include name="AfterMethod"/>
+        </methods>
+      </class> <!-- MainNabiz.NabizFramework.FavoriHaberCikar -->
+      <class name="MainNabiz.NabizFramework.ProfilGeceModu">
+        <methods>
+          <include name="AfterMethod"/>
+          <include name="BeforeMethod"/>
+          <include name="gece_modu"/>
+        </methods>
+      </class> <!-- MainNabiz.NabizFramework.ProfilGeceModu -->
+      <class name="MainNabiz.NabizFramework.FacebookSayfamiz">
+        <methods>
+          <include name="AfterMethod"/>
+          <include name="facebook_sayfasi"/>
+          <include name="BeforeMethod"/>
+        </methods>
+      </class> <!-- MainNabiz.NabizFramework.FacebookSayfamiz -->
+      <class name="MainNabiz.NabizFramework.InstagramSayfamiz">
+        <methods>
+          <include name="BeforeMethod"/>
+          <include name="instagram_sayfasi"/>
+          <include name="AfterMethod"/>
+        </methods>
+      </class> <!-- MainNabiz.NabizFramework.InstagramSayfamiz -->
+      <class name="MainNabiz.NabizFramework.FavoriHaberEkle">
+        <methods>
+          <include name="AfterMethod"/>
+          <include name="BeforeMethod"/>
+          <include name="favorilere_ekle"/>
+        </methods>
+      </class> <!-- MainNabiz.NabizFramework.FavoriHaberEkle -->
+      <class name="MainNabiz.NabizFramework.ProfilKaynakEkle">
+        <methods>
+          <include name="kaynaklari_Duzenle"/>
+          <include name="BeforeMethod"/>
+          <include name="log_out"/>
+          <include name="AfterMethod"/>
+          <include name="a_killAllNodes"/>
+          <include name="b_log_in"/>
+        </methods>
+      </class> <!-- MainNabiz.NabizFramework.ProfilKaynakEkle -->
+      <class name="MainNabiz.NabizFramework.TwitterSayfamiz">
+        <methods>
+          <include name="twitter_sayfasi"/>
+          <include name="AfterMethod"/>
+          <include name="BeforeMethod"/>
+        </methods>
+      </class> <!-- MainNabiz.NabizFramework.TwitterSayfamiz -->
+    </classes>
+  </test> <!-- TestProfil(failed) -->
+</suite> <!-- Failed suite [Suite] -->

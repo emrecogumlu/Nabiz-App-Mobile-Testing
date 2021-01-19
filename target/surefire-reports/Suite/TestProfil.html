@@ -1,0 +1,244 @@
+<html>
+<head>
+<title>TestNG:  TestProfil</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>TestProfil</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>12/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jan 19 06:26:32 EET 2021</td>
+</tr>
+<tr><td>Total time:</td><td>492 seconds (492757 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='MainNabiz.NabizFramework.KaynakOnerme.kaynak_oner()'><b>kaynak_oner</b><br>Test class: MainNabiz.NabizFramework.KaynakOnerme</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Can&apos;t locate an element by this strategy: By.chained({By.id: com.waveline.nabiz:id/source_edit_field})
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:126)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59)
+	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.isDisplayed(&lt;generated&gt;)
+	at MainNabiz.NabizFramework.KaynakOnerme.kaynak_oner(KaynakOnerme.java:28)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@22ead351 (tried for 1 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119)
+	... 32 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.id: com.waveline.nabiz:id/source_edit_field})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-J08TL4P&apos;, ip: &apos;192.168.1.104&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:74)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:120)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:172)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 34 more
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace416579056", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace416579056'><pre>org.openqa.selenium.NoSuchElementException: Can&apos;t locate an element by this strategy: By.chained({By.id: com.waveline.nabiz:id/source_edit_field})
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:126)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59)
+	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.isDisplayed(&lt;generated&gt;)
+	at MainNabiz.NabizFramework.KaynakOnerme.kaynak_oner(KaynakOnerme.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@22ead351 (tried for 1 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119)
+	... 32 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.id: com.waveline.nabiz:id/source_edit_field})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-J08TL4P&apos;, ip: &apos;192.168.1.104&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:74)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:120)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:172)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 34 more
+</pre></div></td>
+<td>26</td>
+<td>MainNabiz.NabizFramework.KaynakOnerme@148080bb</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='MainNabiz.NabizFramework.AramaYapma.arama_yap()'><b>arama_yap</b><br>Test class: MainNabiz.NabizFramework.AramaYapma</td>
+<td></td>
+<td>13</td>
+<td>MainNabiz.NabizFramework.AramaYapma@64bf3bbf</td></tr>
+<tr>
+<td title='MainNabiz.NabizFramework.BaslýkBoyutuAyarla.baslik_boyutu_ayarla()'><b>baslik_boyutu_ayarla</b><br>Test class: MainNabiz.NabizFramework.BaslýkBoyutuAyarla</td>
+<td></td>
+<td>7</td>
+<td>MainNabiz.NabizFramework.BaslýkBoyutuAyarla@49993335</td></tr>
+<tr>
+<td title='MainNabiz.NabizFramework.FacebookSayfamiz.facebook_sayfasi()'><b>facebook_sayfasi</b><br>Test class: MainNabiz.NabizFramework.FacebookSayfamiz</td>
+<td></td>
+<td>16</td>
+<td>MainNabiz.NabizFramework.FacebookSayfamiz@20322d26</td></tr>
+<tr>
+<td title='MainNabiz.NabizFramework.FavoriHaberCikar.favorilerden_cikar()'><b>favorilerden_cikar</b><br>Test class: MainNabiz.NabizFramework.FavoriHaberCikar</td>
+<td></td>
+<td>12</td>
+<td>MainNabiz.NabizFramework.FavoriHaberCikar@2d928643</td></tr>
+<tr>
+<td title='MainNabiz.NabizFramework.FavoriHaberEkle.favorilere_ekle()'><b>favorilere_ekle</b><br>Test class: MainNabiz.NabizFramework.FavoriHaberEkle</td>
+<td></td>
+<td>18</td>
+<td>MainNabiz.NabizFramework.FavoriHaberEkle@6adede5</td></tr>
+<tr>
+<td title='MainNabiz.NabizFramework.ProfilGeceModu.gece_modu()'><b>gece_modu</b><br>Test class: MainNabiz.NabizFramework.ProfilGeceModu</td>
+<td></td>
+<td>7</td>
+<td>MainNabiz.NabizFramework.ProfilGeceModu@5649fd9b</td></tr>
+<tr>
+<td title='MainNabiz.NabizFramework.InstagramSayfamiz.instagram_sayfasi()'><b>instagram_sayfasi</b><br>Test class: MainNabiz.NabizFramework.InstagramSayfamiz</td>
+<td></td>
+<td>15</td>
+<td>MainNabiz.NabizFramework.InstagramSayfamiz@64bfbc86</td></tr>
+<tr>
+<td title='MainNabiz.NabizFramework.ProfilKaynakEkle.kaynaklari_Duzenle()'><b>kaynaklari_Duzenle</b><br>Test class: MainNabiz.NabizFramework.ProfilKaynakEkle</td>
+<td></td>
+<td>18</td>
+<td>MainNabiz.NabizFramework.ProfilKaynakEkle@4bec1f0c</td></tr>
+<tr>
+<td title='MainNabiz.NabizFramework.ProfilKaynakCikar.kaynaklari_Duzenle()'><b>kaynaklari_Duzenle</b><br>Test class: MainNabiz.NabizFramework.ProfilKaynakCikar</td>
+<td></td>
+<td>18</td>
+<td>MainNabiz.NabizFramework.ProfilKaynakCikar@29ca901e</td></tr>
+<tr>
+<td title='MainNabiz.NabizFramework.NabizDergileriKontrol.nabiz_dergileri_kontrol_et()'><b>nabiz_dergileri_kontrol_et</b><br>Test class: MainNabiz.NabizFramework.NabizDergileriKontrol</td>
+<td></td>
+<td>14</td>
+<td>MainNabiz.NabizFramework.NabizDergileriKontrol@55d56113</td></tr>
+<tr>
+<td title='MainNabiz.NabizFramework.TwitterSayfamiz.twitter_sayfasi()'><b>twitter_sayfasi</b><br>Test class: MainNabiz.NabizFramework.TwitterSayfamiz</td>
+<td></td>
+<td>15</td>
+<td>MainNabiz.NabizFramework.TwitterSayfamiz@192b07fd</td></tr>
+<tr>
+<td title='MainNabiz.NabizFramework.YorumEkleSil.yorum_ekle_sil()'><b>yorum_ekle_sil</b><br>Test class: MainNabiz.NabizFramework.YorumEkleSil</td>
+<td></td>
+<td>24</td>
+<td>MainNabiz.NabizFramework.YorumEkleSil@5025a98f</td></tr>
+</table><p>
+</body>
+</html>

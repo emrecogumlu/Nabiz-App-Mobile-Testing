@@ -1,0 +1,147 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>MainNabiz</groupId>
+  <artifactId>NabizFramework</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>NabizFramework</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.target>1.8</maven.compiler.target>
+    <maven.compiler.source>1.8</maven.compiler.source>
+  </properties>
+  
+  <profiles>
+  	<profile>
+  		<id>Regression</id>
+  			<build>
+   
+   	  <resources>
+   	  	<resource>
+        <directory>src/main/java/Resources</directory>
+        <filtering>true</filtering>
+      </resource>
+   	  </resources>
+   
+   
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-surefire-plugin</artifactId>
+          <version>3.0.0-M3</version>
+          	<configuration>
+          		<suiteXmlFiles>
+          			<suiteXmlFile>testng.xml</suiteXmlFile>
+          		</suiteXmlFiles>
+          	</configuration>
+        </plugin>
+      </plugins>
+       
+  	</build>
+  </profile>
+  
+  
+  <profile>
+  		<id>Smoke</id>
+  			<build>
+   
+   	  <resources>
+   	  	<resource>
+        <directory>src/main/java/Resources</directory>
+        <filtering>true</filtering>
+      </resource>
+   	  </resources>
+   
+   
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-surefire-plugin</artifactId>
+          <version>3.0.0-M3</version>
+          	<configuration>
+          		<suiteXmlFiles>
+          			<suiteXmlFile>testng2.xml</suiteXmlFile>
+          		</suiteXmlFiles>
+          	</configuration>
+        </plugin>
+      </plugins>
+       
+  	</build>
+  </profile>
+</profiles>
+
+
+  <dependencies>
+    <dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>6.14.3</version>
+	</dependency>
+    
+    <dependency>
+    <groupId>io.appium</groupId>
+    <artifactId>java-client</artifactId>
+    <version>7.0.0</version>
+	</dependency>
+
+	<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>3.141.59</version>
+	</dependency>
+	
+	<!-- START SERVER İÇİN DEPENDECY'LER: -->
+	
+	<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-simple</artifactId>
+    <version>1.7.26</version>
+    <scope>test</scope>
+	</dependency>
+	
+	<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-api</artifactId>
+    <version>1.7.26</version>
+	</dependency>
+	
+	<dependency>
+    <groupId>org.apache.commons</groupId>
+    <artifactId>commons-lang3</artifactId>
+    <version>3.9</version>
+	</dependency>
+	
+	<dependency>
+    <groupId>commons-io</groupId>
+    <artifactId>commons-io</artifactId>
+    <version>2.6</version>
+	</dependency>
+	
+	<dependency>
+    <groupId>commons-validator</groupId>
+    <artifactId>commons-validator</artifactId>
+    <version>1.6</version>
+	</dependency>
+	
+	<!-- START SERVER İÇİN DEPENDECY'LER: -->
+	
+	<dependency>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>4.0.0</version>
+	</dependency>
+	
+	<dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>5.1.21</version>
+	</dependency>
+	
+    
+  </dependencies>
+</project>

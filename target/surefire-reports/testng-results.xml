@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="21" passed="20">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="777338" started-at="2021-01-19T03:21:48Z" finished-at="2021-01-19T03:34:45Z">
+    <groups>
+    </groups>
+    <test name="TestGiris" duration-ms="284561" started-at="2021-01-19T03:21:48Z" finished-at="2021-01-19T03:26:32Z">
+      <class name="MainNabiz.NabizFramework.GirisYapTwitter">
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:MainNabiz.NabizFramework.GirisYapTwitter@754ba872]" name="BeforeMethod" is-config="true" duration-ms="15446" started-at="2021-01-19T03:22:25Z" finished-at="2021-01-19T03:22:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="twitterla_gir()[pri:0, instance:MainNabiz.NabizFramework.GirisYapTwitter@754ba872]" name="twitterla_gir" duration-ms="26000" started-at="2021-01-19T03:22:41Z" finished-at="2021-01-19T03:23:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- twitterla_gir -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:MainNabiz.NabizFramework.GirisYapTwitter@754ba872]" name="AfterMethod" is-config="true" duration-ms="60" started-at="2021-01-19T03:23:07Z" finished-at="2021-01-19T03:23:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+      </class> <!-- MainNabiz.NabizFramework.GirisYapTwitter -->
+      <class name="MainNabiz.NabizFramework.GirisYapDusukKarakterliSifre">
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:MainNabiz.NabizFramework.GirisYapDusukKarakterliSifre@f6c48ac]" name="BeforeMethod" is-config="true" duration-ms="15620" started-at="2021-01-19T03:25:16Z" finished-at="2021-01-19T03:25:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="dusuk_karakterli_sifre()[pri:0, instance:MainNabiz.NabizFramework.GirisYapDusukKarakterliSifre@f6c48ac]" name="dusuk_karakterli_sifre" duration-ms="15996" started-at="2021-01-19T03:25:32Z" finished-at="2021-01-19T03:25:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dusuk_karakterli_sifre -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:MainNabiz.NabizFramework.GirisYapDusukKarakterliSifre@f6c48ac]" name="AfterMethod" is-config="true" duration-ms="62" started-at="2021-01-19T03:25:48Z" finished-at="2021-01-19T03:25:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+      </class> <!-- MainNabiz.NabizFramework.GirisYapDusukKarakterliSifre -->
+      <class name="MainNabiz.NabizFramework.GirisYapFacebook">
+        <test-method status="PASS" signature="killAllNodes()[pri:0, instance:MainNabiz.NabizFramework.GirisYapFacebook@e25b2fe]" name="killAllNodes" is-config="true" duration-ms="3020" started-at="2021-01-19T03:21:48Z" finished-at="2021-01-19T03:21:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killAllNodes -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:MainNabiz.NabizFramework.GirisYapFacebook@e25b2fe]" name="BeforeMethod" is-config="true" duration-ms="17869" started-at="2021-01-19T03:21:51Z" finished-at="2021-01-19T03:22:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="facebookla_gir()[pri:0, instance:MainNabiz.NabizFramework.GirisYapFacebook@e25b2fe]" name="facebookla_gir" duration-ms="16316" started-at="2021-01-19T03:22:09Z" finished-at="2021-01-19T03:22:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebookla_gir -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:MainNabiz.NabizFramework.GirisYapFacebook@e25b2fe]" name="AfterMethod" is-config="true" duration-ms="61" started-at="2021-01-19T03:22:25Z" finished-at="2021-01-19T03:22:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+      </class> <!-- MainNabiz.NabizFramework.GirisYapFacebook -->
+      <class name="MainNabiz.NabizFramework.GirisYapStandartGiris">
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:MainNabiz.NabizFramework.GirisYapStandartGiris@13deb50e]" name="BeforeMethod" is-config="true" duration-ms="14990" started-at="2021-01-19T03:25:48Z" finished-at="2021-01-19T03:26:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="standart_giris(java.lang.String, java.lang.String)[pri:0, instance:MainNabiz.NabizFramework.GirisYapStandartGiris@13deb50e]" name="standart_giris" duration-ms="29695" started-at="2021-01-19T03:26:03Z" finished-at="2021-01-19T03:26:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gcogumlu@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Emre5490]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- standart_giris -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:MainNabiz.NabizFramework.GirisYapStandartGiris@13deb50e]" name="AfterMethod" is-config="true" duration-ms="53" started-at="2021-01-19T03:26:32Z" finished-at="2021-01-19T03:26:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+      </class> <!-- MainNabiz.NabizFramework.GirisYapStandartGiris -->
+      <class name="MainNabiz.NabizFramework.GirisYapNoInput">
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:MainNabiz.NabizFramework.GirisYapNoInput@4dfa3a9d]" name="BeforeMethod" is-config="true" duration-ms="15240" started-at="2021-01-19T03:23:44Z" finished-at="2021-01-19T03:23:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="no_input_Giris()[pri:0, instance:MainNabiz.NabizFramework.GirisYapNoInput@4dfa3a9d]" name="no_input_Giris" duration-ms="10288" started-at="2021-01-19T03:23:59Z" finished-at="2021-01-19T03:24:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- no_input_Giris -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:MainNabiz.NabizFramework.GirisYapNoInput@4dfa3a9d]" name="AfterMethod" is-config="true" duration-ms="57" started-at="2021-01-19T03:24:09Z" finished-at="2021-01-19T03:24:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+      </class> <!-- MainNabiz.NabizFramework.GirisYapNoInput -->
+      <class name="MainNabiz.NabizFramework.GirisYapYanlisSifre">
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:MainNabiz.NabizFramework.GirisYapYanlisSifre@6eebc39e]" name="BeforeMethod" is-config="true" duration-ms="15383" started-at="2021-01-19T03:24:09Z" finished-at="2021-01-19T03:24:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="yanlis_sifre(java.lang.String)[pri:0, instance:MainNabiz.NabizFramework.GirisYapYanlisSifre@6eebc39e]" name="yanlis_sifre" duration-ms="16446" started-at="2021-01-19T03:24:25Z" finished-at="2021-01-19T03:24:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gcogumlu@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yanlis_sifre -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:MainNabiz.NabizFramework.GirisYapYanlisSifre@6eebc39e]" name="AfterMethod" is-config="true" duration-ms="62" started-at="2021-01-19T03:24:41Z" finished-at="2021-01-19T03:24:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+      </class> <!-- MainNabiz.NabizFramework.GirisYapYanlisSifre -->
+      <class name="MainNabiz.NabizFramework.GirisYapYanlisMail">
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:MainNabiz.NabizFramework.GirisYapYanlisMail@464bee09]" name="BeforeMethod" is-config="true" duration-ms="15343" started-at="2021-01-19T03:24:41Z" finished-at="2021-01-19T03:24:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="yanlis_mail()[pri:0, instance:MainNabiz.NabizFramework.GirisYapYanlisMail@464bee09]" name="yanlis_mail" duration-ms="19462" started-at="2021-01-19T03:24:57Z" finished-at="2021-01-19T03:25:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yanlis_mail -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:MainNabiz.NabizFramework.GirisYapYanlisMail@464bee09]" name="AfterMethod" is-config="true" duration-ms="61" started-at="2021-01-19T03:25:16Z" finished-at="2021-01-19T03:25:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+      </class> <!-- MainNabiz.NabizFramework.GirisYapYanlisMail -->
+      <class name="MainNabiz.NabizFramework.GirisYapGoogle">
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:MainNabiz.NabizFramework.GirisYapGoogle@146ba0ac]" name="BeforeMethod" is-config="true" duration-ms="15052" started-at="2021-01-19T03:23:07Z" finished-at="2021-01-19T03:23:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="google_ile_Gir()[pri:0, instance:MainNabiz.NabizFramework.GirisYapGoogle@146ba0ac]" name="google_ile_Gir" duration-ms="21881" started-at="2021-01-19T03:23:22Z" finished-at="2021-01-19T03:23:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- google_ile_Gir -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:MainNabiz.NabizFramework.GirisYapGoogle@146ba0ac]" name="AfterMethod" is-config="true" duration-ms="59" started-at="2021-01-19T03:23:44Z" finished-at="2021-01-19T03:23:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+      </class> <!-- MainNabiz.NabizFramework.GirisYapGoogle -->
+    </test> <!-- TestGiris -->
+    <test name="TestProfil" duration-ms="492757" started-at="2021-01-19T03:26:32Z" finished-at="2021-01-19T03:34:45Z">
+      <class name="MainNabiz.NabizFramework.TwitterSayfamiz">
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:MainNabiz.NabizFramework.TwitterSayfamiz@192b07fd]" name="BeforeMethod" is-config="true" duration-ms="16482" started-at="2021-01-19T03:31:27Z" finished-at="2021-01-19T03:31:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="twitter_sayfasi()[pri:0, instance:MainNabiz.NabizFramework.TwitterSayfamiz@192b07fd]" name="twitter_sayfasi" duration-ms="15688" started-at="2021-01-19T03:31:43Z" finished-at="2021-01-19T03:31:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- twitter_sayfasi -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:MainNabiz.NabizFramework.TwitterSayfamiz@192b07fd]" name="AfterMethod" is-config="true" duration-ms="53" started-at="2021-01-19T03:31:59Z" finished-at="2021-01-19T03:31:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+      </class> <!-- MainNabiz.NabizFramework.TwitterSayfamiz -->
+      <class name="MainNabiz.NabizFramework.ProfilGeceModu">
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:MainNabiz.NabizFramework.ProfilGeceModu@5649fd9b]" name="BeforeMethod" is-config="true" duration-ms="16629" started-at="2021-01-19T03:28:19Z" finished-at="2021-01-19T03:28:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="gece_modu()[pri:0, instance:MainNabiz.NabizFramework.ProfilGeceModu@5649fd9b]" name="gece_modu" duration-ms="7821" started-at="2021-01-19T03:28:36Z" finished-at="2021-01-19T03:28:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gece_modu -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:MainNabiz.NabizFramework.ProfilGeceModu@5649fd9b]" name="AfterMethod" is-config="true" duration-ms="52" started-at="2021-01-19T03:28:43Z" finished-at="2021-01-19T03:28:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+      </class> <!-- MainNabiz.NabizFramework.ProfilGeceModu -->
+      <class name="MainNabiz.NabizFramework.NabizDergileriKontrol">
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:MainNabiz.NabizFramework.NabizDergileriKontrol@55d56113]" name="BeforeMethod" is-config="true" duration-ms="16594" started-at="2021-01-19T03:33:02Z" finished-at="2021-01-19T03:33:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="nabiz_dergileri_kontrol_et()[pri:0, instance:MainNabiz.NabizFramework.NabizDergileriKontrol@55d56113]" name="nabiz_dergileri_kontrol_et" duration-ms="14921" started-at="2021-01-19T03:33:18Z" finished-at="2021-01-19T03:33:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nabiz_dergileri_kontrol_et -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:MainNabiz.NabizFramework.NabizDergileriKontrol@55d56113]" name="AfterMethod" is-config="true" duration-ms="64" started-at="2021-01-19T03:33:33Z" finished-at="2021-01-19T03:33:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+      </class> <!-- MainNabiz.NabizFramework.NabizDergileriKontrol -->
+      <class name="MainNabiz.NabizFramework.ProfilKaynakEkle">
+        <test-method status="PASS" signature="a_killAllNodes()[pri:0, instance:MainNabiz.NabizFramework.ProfilKaynakEkle@4bec1f0c]" name="a_killAllNodes" is-config="true" duration-ms="3011" started-at="2021-01-19T03:26:32Z" finished-at="2021-01-19T03:26:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a_killAllNodes -->
+        <test-method status="PASS" signature="b_log_in(java.lang.String, java.lang.String)[pri:0, instance:MainNabiz.NabizFramework.ProfilKaynakEkle@4bec1f0c]" name="b_log_in" is-config="true" duration-ms="34103" started-at="2021-01-19T03:26:36Z" finished-at="2021-01-19T03:27:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gcogumlu@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Emre5490]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b_log_in -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:MainNabiz.NabizFramework.ProfilKaynakEkle@4bec1f0c]" name="BeforeMethod" is-config="true" duration-ms="15459" started-at="2021-01-19T03:27:10Z" finished-at="2021-01-19T03:27:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="kaynaklari_Duzenle()[pri:0, instance:MainNabiz.NabizFramework.ProfilKaynakEkle@4bec1f0c]" name="kaynaklari_Duzenle" duration-ms="18389" started-at="2021-01-19T03:27:25Z" finished-at="2021-01-19T03:27:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kaynaklari_Duzenle -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:MainNabiz.NabizFramework.ProfilKaynakEkle@4bec1f0c]" name="AfterMethod" is-config="true" duration-ms="57" started-at="2021-01-19T03:27:43Z" finished-at="2021-01-19T03:27:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="log_out()[pri:0, instance:MainNabiz.NabizFramework.ProfilKaynakEkle@4bec1f0c]" name="log_out" is-config="true" duration-ms="27578" started-at="2021-01-19T03:34:18Z" finished-at="2021-01-19T03:34:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- log_out -->
+      </class> <!-- MainNabiz.NabizFramework.ProfilKaynakEkle -->
+      <class name="MainNabiz.NabizFramework.AramaYapma">
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:MainNabiz.NabizFramework.AramaYapma@64bf3bbf]" name="BeforeMethod" is-config="true" duration-ms="17347" started-at="2021-01-19T03:32:31Z" finished-at="2021-01-19T03:32:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="arama_yap()[pri:0, instance:MainNabiz.NabizFramework.AramaYapma@64bf3bbf]" name="arama_yap" duration-ms="13441" started-at="2021-01-19T03:32:48Z" finished-at="2021-01-19T03:33:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arama_yap -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:MainNabiz.NabizFramework.AramaYapma@64bf3bbf]" name="AfterMethod" is-config="true" duration-ms="64" started-at="2021-01-19T03:33:01Z" finished-at="2021-01-19T03:33:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+      </class> <!-- MainNabiz.NabizFramework.AramaYapma -->
+      <class name="MainNabiz.NabizFramework.FavoriHaberCikar">
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:MainNabiz.NabizFramework.FavoriHaberCikar@2d928643]" name="BeforeMethod" is-config="true" duration-ms="16458" started-at="2021-01-19T03:29:19Z" finished-at="2021-01-19T03:29:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="favorilerden_cikar()[pri:0, instance:MainNabiz.NabizFramework.FavoriHaberCikar@2d928643]" name="favorilerden_cikar" duration-ms="12601" started-at="2021-01-19T03:29:35Z" finished-at="2021-01-19T03:29:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- favorilerden_cikar -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:MainNabiz.NabizFramework.FavoriHaberCikar@2d928643]" name="AfterMethod" is-config="true" duration-ms="61" started-at="2021-01-19T03:29:48Z" finished-at="2021-01-19T03:29:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+      </class> <!-- MainNabiz.NabizFramework.FavoriHaberCikar -->
+      <class name="MainNabiz.NabizFramework.KaynakOnerme">
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:MainNabiz.NabizFramework.KaynakOnerme@148080bb]" name="BeforeMethod" is-config="true" duration-ms="17260" started-at="2021-01-19T03:33:33Z" finished-at="2021-01-19T03:33:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="FAIL" signature="kaynak_oner()[pri:0, instance:MainNabiz.NabizFramework.KaynakOnerme@148080bb]" name="kaynak_oner" duration-ms="26051" started-at="2021-01-19T03:33:50Z" finished-at="2021-01-19T03:34:16Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Can't locate an element by this strategy: By.chained({By.id: com.waveline.nabiz:id/source_edit_field})]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.id: com.waveline.nabiz:id/source_edit_field})
+at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:126)
+at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59)
+at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.isDisplayed(<generated>)
+at MainNabiz.NabizFramework.KaynakOnerme.kaynak_oner(KaynakOnerme.java:28)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@22ead351 (tried for 1 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99)
+at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119)
+... 32 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.id: com.waveline.nabiz:id/source_edit_field})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-J08TL4P', ip: '192.168.1.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: AndroidDriver
+at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:74)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:120)
+at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:172)
+at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+... 34 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kaynak_oner -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:MainNabiz.NabizFramework.KaynakOnerme@148080bb]" name="AfterMethod" is-config="true" duration-ms="65" started-at="2021-01-19T03:34:18Z" finished-at="2021-01-19T03:34:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+      </class> <!-- MainNabiz.NabizFramework.KaynakOnerme -->
+      <class name="MainNabiz.NabizFramework.InstagramSayfamiz">
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:MainNabiz.NabizFramework.InstagramSayfamiz@64bfbc86]" name="BeforeMethod" is-config="true" duration-ms="16654" started-at="2021-01-19T03:31:59Z" finished-at="2021-01-19T03:32:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="instagram_sayfasi()[pri:0, instance:MainNabiz.NabizFramework.InstagramSayfamiz@64bfbc86]" name="instagram_sayfasi" duration-ms="15145" started-at="2021-01-19T03:32:15Z" finished-at="2021-01-19T03:32:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- instagram_sayfasi -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:MainNabiz.NabizFramework.InstagramSayfamiz@64bfbc86]" name="AfterMethod" is-config="true" duration-ms="52" started-at="2021-01-19T03:32:31Z" finished-at="2021-01-19T03:32:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+      </class> <!-- MainNabiz.NabizFramework.InstagramSayfamiz -->
+      <class name="MainNabiz.NabizFramework.ProfilKaynakCikar">
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:MainNabiz.NabizFramework.ProfilKaynakCikar@29ca901e]" name="BeforeMethod" is-config="true" duration-ms="16765" started-at="2021-01-19T03:27:44Z" finished-at="2021-01-19T03:28:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="kaynaklari_Duzenle()[pri:0, instance:MainNabiz.NabizFramework.ProfilKaynakCikar@29ca901e]" name="kaynaklari_Duzenle" duration-ms="18639" started-at="2021-01-19T03:28:00Z" finished-at="2021-01-19T03:28:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kaynaklari_Duzenle -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:MainNabiz.NabizFramework.ProfilKaynakCikar@29ca901e]" name="AfterMethod" is-config="true" duration-ms="56" started-at="2021-01-19T03:28:19Z" finished-at="2021-01-19T03:28:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+      </class> <!-- MainNabiz.NabizFramework.ProfilKaynakCikar -->
+      <class name="MainNabiz.NabizFramework.FacebookSayfamiz">
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:MainNabiz.NabizFramework.FacebookSayfamiz@20322d26]" name="BeforeMethod" is-config="true" duration-ms="16644" started-at="2021-01-19T03:30:53Z" finished-at="2021-01-19T03:31:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="facebook_sayfasi()[pri:0, instance:MainNabiz.NabizFramework.FacebookSayfamiz@20322d26]" name="facebook_sayfasi" duration-ms="16858" started-at="2021-01-19T03:31:10Z" finished-at="2021-01-19T03:31:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebook_sayfasi -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:MainNabiz.NabizFramework.FacebookSayfamiz@20322d26]" name="AfterMethod" is-config="true" duration-ms="60" started-at="2021-01-19T03:31:27Z" finished-at="2021-01-19T03:31:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+      </class> <!-- MainNabiz.NabizFramework.FacebookSayfamiz -->
+      <class name="MainNabiz.NabizFramework.FavoriHaberEkle">
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:MainNabiz.NabizFramework.FavoriHaberEkle@6adede5]" name="BeforeMethod" is-config="true" duration-ms="16722" started-at="2021-01-19T03:28:43Z" finished-at="2021-01-19T03:29:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="favorilere_ekle()[pri:0, instance:MainNabiz.NabizFramework.FavoriHaberEkle@6adede5]" name="favorilere_ekle" duration-ms="18605" started-at="2021-01-19T03:29:00Z" finished-at="2021-01-19T03:29:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- favorilere_ekle -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:MainNabiz.NabizFramework.FavoriHaberEkle@6adede5]" name="AfterMethod" is-config="true" duration-ms="55" started-at="2021-01-19T03:29:19Z" finished-at="2021-01-19T03:29:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+      </class> <!-- MainNabiz.NabizFramework.FavoriHaberEkle -->
+      <class name="MainNabiz.NabizFramework.YorumEkleSil">
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:MainNabiz.NabizFramework.YorumEkleSil@5025a98f]" name="BeforeMethod" is-config="true" duration-ms="16674" started-at="2021-01-19T03:29:48Z" finished-at="2021-01-19T03:30:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="yorum_ekle_sil()[pri:0, instance:MainNabiz.NabizFramework.YorumEkleSil@5025a98f]" name="yorum_ekle_sil" duration-ms="24806" started-at="2021-01-19T03:30:05Z" finished-at="2021-01-19T03:30:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yorum_ekle_sil -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:MainNabiz.NabizFramework.YorumEkleSil@5025a98f]" name="AfterMethod" is-config="true" duration-ms="63" started-at="2021-01-19T03:30:29Z" finished-at="2021-01-19T03:30:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+      </class> <!-- MainNabiz.NabizFramework.YorumEkleSil -->
+      <class name="MainNabiz.NabizFramework.BaslıkBoyutuAyarla">
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:MainNabiz.NabizFramework.BaslıkBoyutuAyarla@49993335]" name="BeforeMethod" is-config="true" duration-ms="16381" started-at="2021-01-19T03:30:30Z" finished-at="2021-01-19T03:30:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="baslik_boyutu_ayarla()[pri:0, instance:MainNabiz.NabizFramework.BaslıkBoyutuAyarla@49993335]" name="baslik_boyutu_ayarla" duration-ms="7093" started-at="2021-01-19T03:30:46Z" finished-at="2021-01-19T03:30:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baslik_boyutu_ayarla -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:MainNabiz.NabizFramework.BaslıkBoyutuAyarla@49993335]" name="AfterMethod" is-config="true" duration-ms="52" started-at="2021-01-19T03:30:53Z" finished-at="2021-01-19T03:30:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+      </class> <!-- MainNabiz.NabizFramework.BaslıkBoyutuAyarla -->
+    </test> <!-- TestProfil -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+	<listener class-name="Resources.Listeners"/>
+	<listener class-name="Resources.ExtentReporterNG"/>
+</listeners>
+<parameter name="gecerli_mail" value="Your Mail Address"></parameter>
+<parameter name="gecerli_sifre" value="Your Password"></parameter>
+
+<test name="TestSmoke">
+	<classes>
+	  <class name="MainNabiz.NabizFramework.ProfilKaynakEkle"/>
+	  <class name="MainNabiz.NabizFramework.ProfilKaynakCikar"/>
+	  <class name="MainNabiz.NabizFramework.FavoriHaberEkle"/>
+	  <class name="MainNabiz.NabizFramework.FavoriHaberCikar"/>
+	  <class name="MainNabiz.NabizFramework.YorumEkleSil"/>
+	  <class name="MainNabiz.NabizFramework.AramaYapma"/>
+	   
+	</classes>
+</test>
+
+</suite> <!-- Suite -->
+
+
+<!--
+
+<class name="MainNabiz.NabizFramework.ProfilKaynakEkle"/>
+<class name="MainNabiz.NabizFramework.ProfilKaynakCikar"/>
+<class name="MainNabiz.NabizFramework.ProfilGeceModu"/>
+<class name="MainNabiz.NabizFramework.FavoriHaberEkle"/>
+<class name="MainNabiz.NabizFramework.FavoriHaberCikar"/>
+<class name="MainNabiz.NabizFramework.YorumEkleSil"/>
+<class name="MainNabiz.NabizFramework.BaslıkBoyutuAyarla"/>
+<class name="MainNabiz.NabizFramework.FacebookSayfamiz"/>
+<class name="MainNabiz.NabizFramework.TwitterSayfamiz"/>
+<class name="MainNabiz.NabizFramework.InstagramSayfamiz"/>
+<class name="MainNabiz.NabizFramework.AramaYapma"/>
+<class name="MainNabiz.NabizFramework.NabizDergileriKontrol"/>
+-->
+
+<!-- 
+
+<include name="twitterla_gir"/>
+<include name="facebookla_gir"/>
+<include name="google_ile_Gir"/>
+<include name="no_input_Giris"/>
+<include name="yanlis_sifre"/>
+<include name="yanlis_mail"/>
+<include name="dusuk_karakterli_sifre"/>
+<include name="standart_giris"/>
+
+ -->

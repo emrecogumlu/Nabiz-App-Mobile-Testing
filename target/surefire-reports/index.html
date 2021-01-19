@@ -1,0 +1,1118 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>C:\Users\Emre\eclipse-workspace\NabizFramework\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">21 methods, 1 failed,   20 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="MainNabiz.NabizFramework.KaynakOnerme" hash-for-method="kaynak_oner">kaynak_oner</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="MainNabiz.NabizFramework.AramaYapma" hash-for-method="arama_yap">arama_yap</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="MainNabiz.NabizFramework.BaslıkBoyutuAyarla" hash-for-method="baslik_boyutu_ayarla">baslik_boyutu_ayarla</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="MainNabiz.NabizFramework.GirisYapDusukKarakterliSifre" hash-for-method="dusuk_karakterli_sifre">dusuk_karakterli_sifre</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="MainNabiz.NabizFramework.FacebookSayfamiz" hash-for-method="facebook_sayfasi">facebook_sayfasi</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="MainNabiz.NabizFramework.GirisYapFacebook" hash-for-method="facebookla_gir">facebookla_gir</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="MainNabiz.NabizFramework.FavoriHaberCikar" hash-for-method="favorilerden_cikar">favorilerden_cikar</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="MainNabiz.NabizFramework.FavoriHaberEkle" hash-for-method="favorilere_ekle">favorilere_ekle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="MainNabiz.NabizFramework.ProfilGeceModu" hash-for-method="gece_modu">gece_modu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="MainNabiz.NabizFramework.GirisYapGoogle" hash-for-method="google_ile_Gir">google_ile_Gir</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="MainNabiz.NabizFramework.InstagramSayfamiz" hash-for-method="instagram_sayfasi">instagram_sayfasi</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="MainNabiz.NabizFramework.ProfilKaynakCikar" hash-for-method="kaynaklari_Duzenle">kaynaklari_Duzenle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="MainNabiz.NabizFramework.ProfilKaynakEkle" hash-for-method="kaynaklari_Duzenle">kaynaklari_Duzenle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="MainNabiz.NabizFramework.NabizDergileriKontrol" hash-for-method="nabiz_dergileri_kontrol_et">nabiz_dergileri_kontrol_et</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="MainNabiz.NabizFramework.GirisYapNoInput" hash-for-method="no_input_Giris">no_input_Giris</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="MainNabiz.NabizFramework.GirisYapStandartGiris" hash-for-method="standart_giris(gcogumlu@gmail.com, Emre5490)">standart_giris(gcogumlu@gmail.com, Emre5490)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="MainNabiz.NabizFramework.TwitterSayfamiz" hash-for-method="twitter_sayfasi">twitter_sayfasi</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="MainNabiz.NabizFramework.GirisYapTwitter" hash-for-method="twitterla_gir">twitterla_gir</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="MainNabiz.NabizFramework.GirisYapYanlisMail" hash-for-method="yanlis_mail">yanlis_mail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="MainNabiz.NabizFramework.GirisYapYanlisSifre" hash-for-method="yanlis_sifre(gcogumlu@gmail.com)">yanlis_sifre(gcogumlu@gmail.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="MainNabiz.NabizFramework.YorumEkleSil" hash-for-method="yorum_ekle_sil">yorum_ekle_sil</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">MainNabiz.NabizFramework.KaynakOnerme</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="kaynak_oner">
+                  </a> <!-- kaynak_oner -->
+                  <span class="method-name">kaynak_oner</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Can&apos;t locate an element by this strategy: By.chained({By.id: com.waveline.nabiz:id/source_edit_field})
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:126)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59)
+	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.isDisplayed(&lt;generated&gt;)
+	at MainNabiz.NabizFramework.KaynakOnerme.kaynak_oner(KaynakOnerme.java:28)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@22ead351 (tried for 1 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119)
+	... 32 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.id: com.waveline.nabiz:id/source_edit_field})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-J08TL4P&apos;, ip: &apos;192.168.1.104&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:74)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:120)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:172)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 34 more
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">MainNabiz.NabizFramework.GirisYapDusukKarakterliSifre</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="dusuk_karakterli_sifre">
+                  </a> <!-- dusuk_karakterli_sifre -->
+                  <span class="method-name">dusuk_karakterli_sifre</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">MainNabiz.NabizFramework.GirisYapStandartGiris</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="standart_giris(gcogumlu@gmail.com, Emre5490)">
+                  </a> <!-- standart_giris(gcogumlu@gmail.com, Emre5490) -->
+                  <span class="method-name">standart_giris</span>
+                  <span class="parameters">(gcogumlu@gmail.com, Emre5490)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">MainNabiz.NabizFramework.ProfilKaynakEkle</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="kaynaklari_Duzenle">
+                  </a> <!-- kaynaklari_Duzenle -->
+                  <span class="method-name">kaynaklari_Duzenle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">MainNabiz.NabizFramework.ProfilGeceModu</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="gece_modu">
+                  </a> <!-- gece_modu -->
+                  <span class="method-name">gece_modu</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">MainNabiz.NabizFramework.GirisYapFacebook</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="facebookla_gir">
+                  </a> <!-- facebookla_gir -->
+                  <span class="method-name">facebookla_gir</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">MainNabiz.NabizFramework.AramaYapma</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="arama_yap">
+                  </a> <!-- arama_yap -->
+                  <span class="method-name">arama_yap</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">MainNabiz.NabizFramework.FacebookSayfamiz</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="facebook_sayfasi">
+                  </a> <!-- facebook_sayfasi -->
+                  <span class="method-name">facebook_sayfasi</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">MainNabiz.NabizFramework.ProfilKaynakCikar</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="kaynaklari_Duzenle">
+                  </a> <!-- kaynaklari_Duzenle -->
+                  <span class="method-name">kaynaklari_Duzenle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">MainNabiz.NabizFramework.GirisYapTwitter</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="twitterla_gir">
+                  </a> <!-- twitterla_gir -->
+                  <span class="method-name">twitterla_gir</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">MainNabiz.NabizFramework.GirisYapYanlisSifre</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="yanlis_sifre(gcogumlu@gmail.com)">
+                  </a> <!-- yanlis_sifre(gcogumlu@gmail.com) -->
+                  <span class="method-name">yanlis_sifre</span>
+                  <span class="parameters">(gcogumlu@gmail.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">MainNabiz.NabizFramework.TwitterSayfamiz</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="twitter_sayfasi">
+                  </a> <!-- twitter_sayfasi -->
+                  <span class="method-name">twitter_sayfasi</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">MainNabiz.NabizFramework.GirisYapGoogle</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="google_ile_Gir">
+                  </a> <!-- google_ile_Gir -->
+                  <span class="method-name">google_ile_Gir</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">MainNabiz.NabizFramework.GirisYapYanlisMail</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="yanlis_mail">
+                  </a> <!-- yanlis_mail -->
+                  <span class="method-name">yanlis_mail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">MainNabiz.NabizFramework.GirisYapNoInput</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="no_input_Giris">
+                  </a> <!-- no_input_Giris -->
+                  <span class="method-name">no_input_Giris</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">MainNabiz.NabizFramework.InstagramSayfamiz</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="instagram_sayfasi">
+                  </a> <!-- instagram_sayfasi -->
+                  <span class="method-name">instagram_sayfasi</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">MainNabiz.NabizFramework.NabizDergileriKontrol</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="nabiz_dergileri_kontrol_et">
+                  </a> <!-- nabiz_dergileri_kontrol_et -->
+                  <span class="method-name">nabiz_dergileri_kontrol_et</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">MainNabiz.NabizFramework.FavoriHaberEkle</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="favorilere_ekle">
+                  </a> <!-- favorilere_ekle -->
+                  <span class="method-name">favorilere_ekle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">MainNabiz.NabizFramework.FavoriHaberCikar</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="favorilerden_cikar">
+                  </a> <!-- favorilerden_cikar -->
+                  <span class="method-name">favorilerden_cikar</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">MainNabiz.NabizFramework.YorumEkleSil</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="yorum_ekle_sil">
+                  </a> <!-- yorum_ekle_sil -->
+                  <span class="method-name">yorum_ekle_sil</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">MainNabiz.NabizFramework.BaslıkBoyutuAyarla</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="baslik_boyutu_ayarla">
+                  </a> <!-- baslik_boyutu_ayarla -->
+                  <span class="method-name">baslik_boyutu_ayarla</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Emre\eclipse-workspace\NabizFramework\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite&quot;&gt;
+  &lt;parameter name=&quot;gecerli_sifre&quot; value=&quot;Emre5490&quot;/&gt;
+  &lt;parameter name=&quot;gecerli_mail&quot; value=&quot;gcogumlu@gmail.com&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;Resources.Listeners&quot;/&gt;
+    &lt;listener class-name=&quot;Resources.ExtentReporterNG&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;TestGiris&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;MainNabiz.NabizFramework.GirisYapFacebook&quot;/&gt;
+      &lt;class name=&quot;MainNabiz.NabizFramework.GirisYapTwitter&quot;/&gt;
+      &lt;class name=&quot;MainNabiz.NabizFramework.GirisYapGoogle&quot;/&gt;
+      &lt;class name=&quot;MainNabiz.NabizFramework.GirisYapNoInput&quot;/&gt;
+      &lt;class name=&quot;MainNabiz.NabizFramework.GirisYapYanlisSifre&quot;/&gt;
+      &lt;class name=&quot;MainNabiz.NabizFramework.GirisYapYanlisMail&quot;/&gt;
+      &lt;class name=&quot;MainNabiz.NabizFramework.GirisYapDusukKarakterliSifre&quot;/&gt;
+      &lt;class name=&quot;MainNabiz.NabizFramework.GirisYapStandartGiris&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestGiris --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;TestProfil&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;MainNabiz.NabizFramework.ProfilKaynakEkle&quot;/&gt;
+      &lt;class name=&quot;MainNabiz.NabizFramework.ProfilKaynakCikar&quot;/&gt;
+      &lt;class name=&quot;MainNabiz.NabizFramework.ProfilGeceModu&quot;/&gt;
+      &lt;class name=&quot;MainNabiz.NabizFramework.FavoriHaberEkle&quot;/&gt;
+      &lt;class name=&quot;MainNabiz.NabizFramework.FavoriHaberCikar&quot;/&gt;
+      &lt;class name=&quot;MainNabiz.NabizFramework.YorumEkleSil&quot;/&gt;
+      &lt;class name=&quot;MainNabiz.NabizFramework.BaslıkBoyutuAyarla&quot;/&gt;
+      &lt;class name=&quot;MainNabiz.NabizFramework.FacebookSayfamiz&quot;/&gt;
+      &lt;class name=&quot;MainNabiz.NabizFramework.TwitterSayfamiz&quot;/&gt;
+      &lt;class name=&quot;MainNabiz.NabizFramework.InstagramSayfamiz&quot;/&gt;
+      &lt;class name=&quot;MainNabiz.NabizFramework.AramaYapma&quot;/&gt;
+      &lt;class name=&quot;MainNabiz.NabizFramework.NabizDergileriKontrol&quot;/&gt;
+      &lt;class name=&quot;MainNabiz.NabizFramework.KaynakOnerme&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestProfil --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">TestGiris (8 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">TestProfil (13 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(21);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'standart_giris')
+data.setCell(0, 2, 'MainNabiz.NabizFramework.GirisYapStandartGiris')
+data.setCell(0, 3, 29695);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'kaynak_oner')
+data.setCell(1, 2, 'MainNabiz.NabizFramework.KaynakOnerme')
+data.setCell(1, 3, 26051);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'twitterla_gir')
+data.setCell(2, 2, 'MainNabiz.NabizFramework.GirisYapTwitter')
+data.setCell(2, 3, 26000);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'yorum_ekle_sil')
+data.setCell(3, 2, 'MainNabiz.NabizFramework.YorumEkleSil')
+data.setCell(3, 3, 24806);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'google_ile_Gir')
+data.setCell(4, 2, 'MainNabiz.NabizFramework.GirisYapGoogle')
+data.setCell(4, 3, 21881);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'yanlis_mail')
+data.setCell(5, 2, 'MainNabiz.NabizFramework.GirisYapYanlisMail')
+data.setCell(5, 3, 19462);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'kaynaklari_Duzenle')
+data.setCell(6, 2, 'MainNabiz.NabizFramework.ProfilKaynakCikar')
+data.setCell(6, 3, 18639);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'favorilere_ekle')
+data.setCell(7, 2, 'MainNabiz.NabizFramework.FavoriHaberEkle')
+data.setCell(7, 3, 18605);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'kaynaklari_Duzenle')
+data.setCell(8, 2, 'MainNabiz.NabizFramework.ProfilKaynakEkle')
+data.setCell(8, 3, 18389);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'facebook_sayfasi')
+data.setCell(9, 2, 'MainNabiz.NabizFramework.FacebookSayfamiz')
+data.setCell(9, 3, 16858);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'yanlis_sifre')
+data.setCell(10, 2, 'MainNabiz.NabizFramework.GirisYapYanlisSifre')
+data.setCell(10, 3, 16446);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'facebookla_gir')
+data.setCell(11, 2, 'MainNabiz.NabizFramework.GirisYapFacebook')
+data.setCell(11, 3, 16316);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'dusuk_karakterli_sifre')
+data.setCell(12, 2, 'MainNabiz.NabizFramework.GirisYapDusukKarakterliSifre')
+data.setCell(12, 3, 15996);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'twitter_sayfasi')
+data.setCell(13, 2, 'MainNabiz.NabizFramework.TwitterSayfamiz')
+data.setCell(13, 3, 15688);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'instagram_sayfasi')
+data.setCell(14, 2, 'MainNabiz.NabizFramework.InstagramSayfamiz')
+data.setCell(14, 3, 15145);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'nabiz_dergileri_kontrol_et')
+data.setCell(15, 2, 'MainNabiz.NabizFramework.NabizDergileriKontrol')
+data.setCell(15, 3, 14921);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'arama_yap')
+data.setCell(16, 2, 'MainNabiz.NabizFramework.AramaYapma')
+data.setCell(16, 3, 13441);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'favorilerden_cikar')
+data.setCell(17, 2, 'MainNabiz.NabizFramework.FavoriHaberCikar')
+data.setCell(17, 3, 12601);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'no_input_Giris')
+data.setCell(18, 2, 'MainNabiz.NabizFramework.GirisYapNoInput')
+data.setCell(18, 3, 10288);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'gece_modu')
+data.setCell(19, 2, 'MainNabiz.NabizFramework.ProfilGeceModu')
+data.setCell(19, 3, 7821);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'baslik_boyutu_ayarla')
+data.setCell(20, 2, 'MainNabiz.NabizFramework.BaslıkBoyutuAyarla')
+data.setCell(20, 3, 7093);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 6 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">MainNabiz.NabizFramework.GirisYapFacebook</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">killAllNodes</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">3040 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">facebookla_gir</span>
+                <span class="method-start">20909 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethod</span>
+                <span class="method-start">37227 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">MainNabiz.NabizFramework.GirisYapTwitter</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">37290 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">twitterla_gir</span>
+                <span class="method-start">52737 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethod</span>
+                <span class="method-start">78737 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">MainNabiz.NabizFramework.GirisYapGoogle</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">78797 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">google_ile_Gir</span>
+                <span class="method-start">93849 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethod</span>
+                <span class="method-start">115731 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">MainNabiz.NabizFramework.GirisYapNoInput</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">115790 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">no_input_Giris</span>
+                <span class="method-start">131030 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethod</span>
+                <span class="method-start">141319 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">MainNabiz.NabizFramework.GirisYapYanlisSifre</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">141381 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">yanlis_sifre(gcogumlu@gmail.com)</span>
+                <span class="method-start">156764 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethod</span>
+                <span class="method-start">173211 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">MainNabiz.NabizFramework.GirisYapYanlisMail</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">173273 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">yanlis_mail</span>
+                <span class="method-start">188616 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethod</span>
+                <span class="method-start">208079 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">MainNabiz.NabizFramework.GirisYapDusukKarakterliSifre</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">208141 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">dusuk_karakterli_sifre</span>
+                <span class="method-start">223761 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethod</span>
+                <span class="method-start">239757 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">MainNabiz.NabizFramework.GirisYapStandartGiris</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">239820 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">standart_giris(gcogumlu@gmail.com, Emre5490)</span>
+                <span class="method-start">254811 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethod</span>
+                <span class="method-start">284507 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">MainNabiz.NabizFramework.ProfilKaynakEkle</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">a_killAllNodes</span>
+                <span class="method-start">284580 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">b_log_in(gcogumlu@gmail.com, Emre5490)</span>
+                <span class="method-start">287591 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">321695 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">kaynaklari_Duzenle</span>
+                <span class="method-start">337154 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethod</span>
+                <span class="method-start">355543 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">MainNabiz.NabizFramework.ProfilKaynakCikar</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">355600 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">kaynaklari_Duzenle</span>
+                <span class="method-start">372365 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethod</span>
+                <span class="method-start">391005 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">MainNabiz.NabizFramework.ProfilGeceModu</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">391062 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">gece_modu</span>
+                <span class="method-start">407691 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethod</span>
+                <span class="method-start">415512 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">MainNabiz.NabizFramework.FavoriHaberEkle</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">415565 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">favorilere_ekle</span>
+                <span class="method-start">432287 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethod</span>
+                <span class="method-start">450892 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">MainNabiz.NabizFramework.FavoriHaberCikar</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">450947 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">favorilerden_cikar</span>
+                <span class="method-start">467405 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethod</span>
+                <span class="method-start">480006 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">MainNabiz.NabizFramework.YorumEkleSil</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">480067 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">yorum_ekle_sil</span>
+                <span class="method-start">496741 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethod</span>
+                <span class="method-start">521548 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">MainNabiz.NabizFramework.BaslıkBoyutuAyarla</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">521611 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">baslik_boyutu_ayarla</span>
+                <span class="method-start">537992 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethod</span>
+                <span class="method-start">545085 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">MainNabiz.NabizFramework.FacebookSayfamiz</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">545139 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">facebook_sayfasi</span>
+                <span class="method-start">561783 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethod</span>
+                <span class="method-start">578641 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">MainNabiz.NabizFramework.TwitterSayfamiz</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">578701 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">twitter_sayfasi</span>
+                <span class="method-start">595183 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethod</span>
+                <span class="method-start">610871 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">MainNabiz.NabizFramework.InstagramSayfamiz</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">610924 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">instagram_sayfasi</span>
+                <span class="method-start">627578 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethod</span>
+                <span class="method-start">642723 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">MainNabiz.NabizFramework.AramaYapma</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">642776 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">arama_yap</span>
+                <span class="method-start">660123 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethod</span>
+                <span class="method-start">673564 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">MainNabiz.NabizFramework.NabizDergileriKontrol</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">673628 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">nabiz_dergileri_kontrol_et</span>
+                <span class="method-start">690222 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethod</span>
+                <span class="method-start">705143 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">MainNabiz.NabizFramework.KaynakOnerme</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod</span>
+                <span class="method-start">705207 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">kaynak_oner</span>
+                <span class="method-start">722467 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethod</span>
+                <span class="method-start">749694 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">MainNabiz.NabizFramework.ProfilKaynakEkle</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">log_out</span>
+                <span class="method-start">749759 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

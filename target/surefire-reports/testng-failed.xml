@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <parameter name="gecerli_sifre" value="Emre5490"/>
+  <parameter name="gecerli_mail" value="gcogumlu@gmail.com"/>
+  <listeners>
+    <listener class-name="Resources.Listeners"/>
+    <listener class-name="Resources.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="TestProfil(failed)">
+    <classes>
+      <class name="MainNabiz.NabizFramework.KaynakOnerme">
+        <methods>
+          <include name="AfterMethod"/>
+          <include name="BeforeMethod"/>
+          <include name="kaynak_oner"/>
+        </methods>
+      </class> <!-- MainNabiz.NabizFramework.KaynakOnerme -->
+    </classes>
+  </test> <!-- TestProfil(failed) -->
+</suite> <!-- Failed suite [Suite] -->
