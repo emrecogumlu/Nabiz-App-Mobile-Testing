@@ -66,7 +66,7 @@ There are 21 test cases in this project. Each of them controls necessary require
 
 -NabizDergileriKontrol : When the user selects a category from the magazines section, it checks whether the news sources they come across really belong to that category.
 
--KaynakOnerme : Kullanıcının uygulama için yeni bir kaynak önerip öneremeyeceğini kontrol eder.
+-KaynakOnerme : Checks whether the user can suggest a new resource for the application.
 
 
 
